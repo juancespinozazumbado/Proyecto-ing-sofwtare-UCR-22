@@ -20,5 +20,8 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        // agregamos un usaurio administrador a la base de datos
+
+        $this->call(administrador:: class);
     }
 }
