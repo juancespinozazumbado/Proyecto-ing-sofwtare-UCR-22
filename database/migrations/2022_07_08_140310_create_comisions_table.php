@@ -19,7 +19,6 @@ return new class extends Migration
             $table->foreignId('servicio_id')->constrained();
             $table->double('monto');
             $table->boolean('estado')->default(0);
-            $table->boolean('estado')->default(0);
             $table->timestamps();
         });
     }
